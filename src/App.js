@@ -1,22 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p>coming soon...</p>
+        <p itemScope itemType="https://schema.org/Person">
+          contact: <a itemProp="email" href="mailto:guy@vsmp.co.uk" target="_blank" rel="noreferrer">guy@vsmp.co.uk</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
