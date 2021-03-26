@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #1f1933;
+  background-color: #1a1129;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,16 @@
   color: white;
 }
 
+.App-header img, .App-header p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .App-header a {
   color: #899c4b;
+}
+
+.App-header img {
+  padding: 5px;
+  max-width: 90vw;
 }
